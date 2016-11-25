@@ -1,0 +1,328 @@
+html {
+  box-sizing: border-box;
+  max-height: 100%;
+}
+
+*, *:after, *:before {
+  box-sizing: inherit;
+}
+
+#albumContainer {
+  width: 90%;
+  margin: auto;
+}
+
+.verticalAlign {
+  vertical-align: middle;
+}
+
+.albumRow, .galleryRow { 
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#albumHeader {
+  background: #26C6DA;
+  height: 170px;
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+  font-size: 100px;
+}
+
+a {
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.albumThumb, .photoThumb {
+  height: 350px;
+  width: 350px;
+  position: relative;
+  border-radius: 2%;
+  box-shadow: 0 0 0 0;
+  margin-top: 25px;
+} 
+
+.albumThumb > img, .photoThumb > img {
+  height: 350px;
+  width: 350px;
+  border-radius: 2%;
+}
+
+.albumThumb:hover, .photoThumb:hover {
+  box-shadow: 10px 10px 5px #888888;
+  transition: box-shadow 0.5s;
+}
+
+.albumFooter, .photoFooter {
+  height: 50px;
+  width: 350px;
+  background-color: #039BE5;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  padding-top: 17px;
+}
+
+#gallerySideBar {
+  width: 200px;
+  float: left;
+  margin-top: 70px;
+}
+
+#gallerySideButtons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: #512DA8;
+  width: 200px;
+  height: 300px;
+}
+
+.gallerySideBarButton {
+  height: 60px;
+  width: 200px;
+  color:#512DA8;
+  background: lightgrey;
+  padding-top: 20px;
+  padding-left: 39px;
+}
+
+.gallerySideBarButton:hover {
+  background: darkgrey;
+  transition: background 0.5s
+}
+
+#galleryContainer {
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+
+#galleryHeader {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+#photoContainerHeader {
+  text-align: center;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+#photoContainer {
+  background: lightgrey;
+  height: 1500px;
+  width: 100%;
+  position: relative;
+}
+
+#photo {
+  background: #039BE5;
+  height: 600px;
+  width: 700px;
+  border-radius: 2%;
+  margin: auto;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+#photo > img {
+  height: 100%;
+  width: 100%;
+  border-radius: 2%;
+}
+
+#goBack {
+  font-size: 21px;
+  height: 50px;
+  width: 100px;
+  background: #c5c2c2;;
+  position: absolute;
+  border-radius: 19px;
+  border: none;
+  margin-top: 60px;
+  left: 64%;
+  border-bottom: 8px solid #888888;
+}
+
+#goBack:hover {
+  background: #d01919;
+  border-bottom: 8px solid darkred;
+}
+
+#goBack:active {
+  border-bottom: 0;
+}
+
+#goBackphoto {
+  height: 50px;
+  width:100px;
+  background: #c5c2c2;;
+  position: absolute;
+  border-radius: 19px;
+  border: none;
+  font-size: 100%;
+  margin-top: 70px;
+  left: 64%;
+  border-bottom: 8px solid #888888;
+}
+
+#goBackphoto:active {
+  border-bottom: none;
+}
+
+#goBackphoto:hover {
+  background: #47dc19;
+  border-bottom: 8px solid #309436;
+  transition: background 1s;
+}
+
+.addButton {
+  color: black;
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top: 25px;
+  font-size: 50px;
+  background: #00E676;
+  border-bottom: 8px solid #888888;
+  transition: background 0.2s;
+  width: 32%;
+  vertical-align: middle;
+  border-radius: 20px;
+  position: absolute;
+  left: 34%;
+}
+
+.addButton:hover {
+  background: #47dc19;
+  border-bottom: 8px solid #309436
+}
+
+.addButton:active {
+  border-bottom: 0;
+  border-top: 0;
+  margin-top: 30px;
+}
+
+.albumForm {
+  font-size: 50px;
+  width: 25%;
+  margin-top: 50px;
+  left: 38%;
+  border-right: none;
+}
+
+.albumForm:active {
+  margin-top: 60px;
+}
+
+.photoForm {
+  top: 175%;
+  width: 29%;
+  height: 45%;
+  font-size: 58px;
+  border-right: none;
+}
+
+.photoForm:active {
+  top: 176%;
+}
+
+.photoBack {
+  height: 86px;
+  width: 106px;
+  background: #c5c2c2;;
+  position: absolute;
+  border-radius: 19px;
+  border: none;
+  top: 188%;
+  left: 64%;
+  border-bottom: 8px solid #888888;
+}
+
+.photoBack:hover, .photoContainerDeletePhoto:hover  {
+  background: #d01919;
+  border-bottom: 8px solid darkred;
+}
+
+.photoBack:active {
+  border-bottom: 0;
+  top: 189%;  
+}
+
+.addButton2 {
+  margin-left: 7%;
+  border-right: none;
+}
+
+.formInput {
+  width: 50%;
+  height: 37%;
+  display: block;
+  margin: auto;
+  margin-top: 65px;
+  font-size: 37px;
+  text-align: center;
+  border-radius: 5px;
+  border: 5px solid #c5c2c2;
+  outline: none;
+  padding: 10px;
+}
+
+.formInput:focus {
+  border: 3px solid #47DC19;
+  transition: border 1s;
+}
+
+.deleteButton {
+  width: 100px;
+  height: 27px;
+  background: #f73002;
+  text-align: center;
+  line-height: 1.5;
+  border-radius: 8px;
+  position: absolute;
+  top: 33px;
+  right: 13px;
+  opacity: 0;
+  color: white;
+;
+}
+
+.relative {
+  position: relative;
+}
+
+.relative:hover > .deleteButton {
+  opacity: .5;
+  transition: opacity 0.5s;
+}
+
+.photoContainerDeletePhoto {
+  color: black;
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top: 25px;
+  font-size: 54px;
+  background: #c5c2c2;
+  border-bottom: 8px solid #888888;
+  transition: background 0.5s;
+  width: 29%;
+  vertical-align: middle;
+  border-radius: 20px;
+  position: absolute;
+  left: 34%;
+  top: 51.4%;
+}
+
+.photoContainerDeletePhoto:active {
+  border-bottom: none;
+  top: 52.4%;
+}

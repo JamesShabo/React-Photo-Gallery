@@ -1,0 +1,63 @@
+{
+  "albums": [
+    {
+      "id": 1,
+      "coverphoto": "http://yourshot.nationalgeographic.com/u/fQYSUbVfts-T7pS2VP2wnKyN8wxywmXtY0-FwsgxoQUUu64xTHoh4QtE4gfZ1c2E7eHDcd_DPzchhzA96lON/"
+    },
+    {
+      "id": 2,
+      "coverphoto": "https://media-cdn.tripadvisor.com/media/photo-s/05/a4/ee/8f/san-diego.jpg"
+    },
+    {
+      "id": 3,
+      "coverphoto": "https://i.ytimg.com/vi/lt0WQ8JzLz4/maxresdefault.jpg"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://lh3.ggpht.com/FjDlktAHQeBIUaYTJRARp4OwfIuLoMO43VFTupo1jb12melaqcRir8mxvaX1127E=h900",
+      "albumId": 1,
+      "id": 1
+    },
+    {
+      "url": "https://www.wired.com/wp-content/uploads/2015/04/85120553.jpg",
+      "albumId": 1,
+      "id": 2
+    },
+    {
+      "url": "http://cdn3en.mundo.com/fotos/201505/Animals-6-600x400.jpg",
+      "albumId": 1,
+      "id": 3
+    },
+    {
+      "url": "http://i.kinja-img.com/gawker-media/image/upload/xf78kwfbb9ze3qrxo9to.bmp",
+      "albumId": 2,
+      "id": 4
+    },
+    {
+      "url": "http://d56b293rhv8dp.cloudfront.net/locations/9/cover_images/original/shutterstock_95925931.jpg?1470842369",
+      "albumId": 2,
+      "id": 5
+    },
+    {
+      "url": "https://media-cdn.tripadvisor.com/media/photo-s/07/a0/4e/33/seaworld-san-diego.jpg",
+      "albumId": 2,
+      "id": 6
+    },
+    {
+      "url": "http://www.mrwallpaper.com/wallpapers/space-stars-road.jpg",
+      "albumId": 3,
+      "id": 7
+    },
+    {
+      "url": "https://i.ytimg.com/vi/XUFpdwbfqqQ/maxresdefault.jpg",
+      "albumId": 3,
+      "id": 8
+    },
+    {
+      "url": "http://static2.businessinsider.com/image/56bd06dedd08957d4b8b4760-1200/black-holes.jpg",
+      "albumId": 3,
+      "id": 9
+    }
+  ]
+}
